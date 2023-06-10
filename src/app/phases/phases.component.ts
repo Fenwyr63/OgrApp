@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Hero } from '../hero';
-import { HEROES } from '../mock-heroes';
+import { OGREST } from '../mock-heroes';
 
 @Component({
   selector: 'app-heroes',
@@ -10,7 +10,7 @@ import { HEROES } from '../mock-heroes';
 
 export class PhasesComponent {
 
-  heroes = HEROES;
+  heroes = OGREST;
   selectedHero?: Hero;
 
   onSelect(hero: Hero): void {
